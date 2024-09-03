@@ -33,14 +33,9 @@ body{
     width: 10%;
 }
 
-.hamburguer-menu{
-justify-content: end;
-
-}
-
 .img-hamburguer-menu{
     display: flex;
-    justify-content: end;
+    justify-self: end;
     width: 10%;
 }
 
