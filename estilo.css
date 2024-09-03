@@ -2,15 +2,95 @@
 
 :root{
     --margem: #fff;
+    --opções-detalhes-: #000;
+    --fundo-texto-1: #D6EEEE;
+    --fundo-texto-2: #fff;
     --textos: #000;
-
+    --fonte: 
 }
 
 *{
     font-weight: 400;
 }
 
+body{
+    background: rgb(138,224,242);
+    background: linear-gradient(90deg, rgba(138,224,242,1) 0%, rgba(94,214,149,1) 100%);
+    color: var(--textos2);
+}
+
 .cabecalho{
+    background-color: var(--margem);
+    font-size: 25px;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    font-family: "Kanit", sans-serif;
+    align-items: center;
+}
 
+.imagem-cabecalho{
+    width: 10%;
+}
 
+.img-hamburguer-menu{
+    display: flex;
+    justify-content: end;
+    width: 10%;
+}
+
+.textos-linha-1{
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+    font-size: 30px;
+    justify-content: baseline;
+    flex-wrap: wrap;
+}
+
+.textos-linha-2{
+    display:flex;
+    padding: 10px;
+    margin: 15px;
+    font-size: 30px;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.textos-linha-3{
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+    font-size: 30px;
+    justify-content: baseline;
+    flex-wrap: wrap;
+}
+
+.textos-linha-4{
+    display:flex;
+    padding: 10px;
+    margin: 15px;
+    font-size: 30px;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.tp-1{
+    background-color: var(--fundo-texto-1);
+}
+
+.tp-2{
+    background-color: var(--fundo-texto-2);
+}
+
+.tp-3{
+    background-color: var(--fundo-texto-1);
+}
+
+.tp-4{
+    background-color: var(--fundo-texto-2);
+}
+    
+@media (min-width:1024px){
+    
 }
